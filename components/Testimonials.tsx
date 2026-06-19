@@ -6,15 +6,15 @@ import { Star } from 'lucide-react';
 
 const reviews = [
   {
-    text: "I've been to three other med spas in Scottsdale and none of them compare. Renata took 20 minutes just to listen to my concerns before touching my face. My results look completely natural.",
+    text: 'I have been to three other med spas in Scottsdale and none of them compare. Renata took 20 minutes just to listen to my concerns before touching my face. My results look completely natural.',
     author: 'Christine M.',
   },
   {
-    text: "I was nervous about trying Botox for the first time but the whole team made me feel so comfortable. Two weeks later my friends thought I just looked 'well-rested.' That's exactly what I wanted.",
+    text: 'I was nervous about trying Botox for the first time but the whole team made me feel so comfortable. Two weeks later my friends thought I just looked well-rested. That is exactly what I wanted.',
     author: 'Andrea T.',
   },
   {
-    text: 'The HydraFacial here is next level. My skin was glowing for weeks and Renata customized the boosters specifically for my rosacea. I won\'t go anywhere else.',
+    text: 'The HydraFacial here is next level. My skin was glowing for weeks and Renata customized the boosters specifically for my rosacea. I will not go anywhere else.',
     author: 'Olivia R.',
   },
 ];
@@ -56,15 +56,13 @@ export default function Testimonials() {
   );
 }
 
-function ReviewCard(
-  {
-    review,
-    index,
-  }: {
-    review: { text: string; author: string };
-    index: number;
-  }
-) {
+function ReviewCard({
+  review,
+  index,
+}: {
+  review: { text: string; author: string };
+  index: number;
+}) {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-60px' });
 
