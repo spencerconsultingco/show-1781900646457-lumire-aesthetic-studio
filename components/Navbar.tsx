@@ -36,7 +36,7 @@ export default function Navbar() {
           <a href="#" className="flex items-center gap-3 flex-shrink-0">
             <Image
               src="/images/logo.png"
-              alt="LumièRe Aesthetic Studio Logo"
+              alt="LumieRe Aesthetic Studio Logo"
               width={64}
               height={64}
               className="w-16 h-16 object-contain flex-shrink-0"
@@ -48,7 +48,7 @@ export default function Navbar() {
                   isScrolled ? 'text-brand-primary' : 'text-white'
                 }`}
               >
-                LumièRe
+                LumieRe
               </span>
               <p
                 className={`text-xs tracking-[0.15em] uppercase font-body font-light transition-colors duration-300 ${
