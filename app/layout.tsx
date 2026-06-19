@@ -18,7 +18,7 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: 'LumièRe Aesthetic Studio | Med Spa Scottsdale, AZ',
+  title: 'LumieRe Aesthetic Studio | Med Spa Scottsdale, AZ',
   description:
     'Boutique med spa in Scottsdale, AZ. Botox, dermal fillers, laser resurfacing, HydraFacial, and more. Led by Renata Voss, board-certified nurse practitioner with 14+ years experience.',
 };
