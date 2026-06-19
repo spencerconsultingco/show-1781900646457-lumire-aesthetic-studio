@@ -54,7 +54,7 @@ export default function Contact() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="font-body text-brand-secondary text-base leading-relaxed mb-10"
             >
-              Every journey at LumièRe starts with a conversation. Reach out to schedule your personalized consultation with Renata. We serve Scottsdale, Paradise Valley, Tempe, and the greater Phoenix metro area.
+              Every journey at LumieRe starts with a conversation. Reach out to schedule your personalized consultation with Renata. We serve Scottsdale, Paradise Valley, Tempe, and the greater Phoenix metro area.
             </motion.p>
 
             <motion.div
@@ -212,7 +212,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full bg-white border border-brand-accent/20 rounded-xl px-4 py-3 font-body text-sm text-brand-text focus:outline-none focus:border-brand-accent transition-colors resize-none"
-                    placeholder="Share what you're hoping to address or improve..."
+                    placeholder="Share what you are hoping to address or improve..."
                   />
                 </div>
 
