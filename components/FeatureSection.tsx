@@ -43,7 +43,7 @@ export default function FeatureSection() {
               transition={{ duration: 0.6 }}
               className="text-brand-accent font-body text-xs font-medium tracking-[0.25em] uppercase mb-4"
             >
-              Why LumièRe
+              Why LumieRe
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 25 }}
@@ -60,7 +60,7 @@ export default function FeatureSection() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="font-body text-white/70 text-base leading-relaxed mb-10"
             >
-              In a city full of med spas, LumièRe stands apart through the conviction that genuine results come from genuine care. Renata founded this boutique studio to offer Scottsdale clients something rare: a practitioner who is accountable, unhurried, and deeply skilled.
+              In a city full of med spas, LumieRe stands apart through the conviction that genuine results come from genuine care. Renata founded this boutique studio to offer Scottsdale clients something rare: a practitioner who is accountable, unhurried, and deeply skilled.
             </motion.p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -123,7 +123,7 @@ function FeatureImageBlock({ isInView }: { isInView: boolean }) {
       <div className="relative rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl">
         <Image
           src="/images/gallery-1.jpg"
-          alt="Renata Voss performing an aesthetic treatment at LumièRe Aesthetic Studio"
+          alt="Renata Voss performing an aesthetic treatment at LumieRe Aesthetic Studio"
           fill
           className="object-cover"
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -148,7 +148,7 @@ function FeatureImageBlock({ isInView }: { isInView: boolean }) {
         <div className="relative rounded-xl overflow-hidden w-24 h-24 shadow-lg border-2 border-white">
           <Image
             src="/images/gallery-2.jpg"
-            alt="Aesthetic treatment result at LumièRe Aesthetic Studio"
+            alt="Aesthetic treatment result at LumieRe Aesthetic Studio"
             fill
             className="object-cover"
             sizes="96px"
