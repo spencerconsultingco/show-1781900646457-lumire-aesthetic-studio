@@ -1,7 +1,6 @@
 'use client';
 
 import { useRef } from 'react';
-import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 import { Sparkles, Droplets, Zap, Heart, Thermometer, Waves } from 'lucide-react';
 
@@ -45,7 +44,7 @@ const services = [
     icon: Waves,
     name: 'PRP Microneedling',
     description:
-      'Harness your body's own growth factors to stimulate collagen, tighten skin, and reduce fine lines. A powerful regenerative treatment with lasting results.',
+      'Harness your body\'s own growth factors to stimulate collagen, tighten skin, and reduce fine lines. A powerful regenerative treatment with lasting results.',
     tag: '',
   },
 ];
@@ -81,7 +80,7 @@ export default function Services() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="font-body text-brand-secondary text-base sm:text-lg max-w-2xl mx-auto leading-relaxed"
           >
-            Every treatment at LumièRe begins with a thorough consultation. We believe in educating our clients fully before recommending any procedure.
+            Every treatment at LumieRe begins with a thorough consultation. We believe in educating our clients fully before recommending any procedure.
           </motion.p>
         </div>
 
