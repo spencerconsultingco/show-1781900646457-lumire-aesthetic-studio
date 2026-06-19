@@ -26,13 +26,13 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-5">
               <Image
                 src="/images/logo.png"
-                alt="LumièRe Aesthetic Studio Logo"
+                alt="LumieRe Aesthetic Studio Logo"
                 width={48}
                 height={48}
                 className="w-12 h-12 object-contain"
               />
               <div>
-                <p className="font-heading text-base font-semibold text-white">LumièRe</p>
+                <p className="font-heading text-base font-semibold text-white">LumieRe</p>
                 <p className="font-body text-white/50 text-xs tracking-widest uppercase">Aesthetic Studio</p>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-white/40 text-xs text-center sm:text-left">
-            &copy; {new Date().getFullYear()} LumièRe Aesthetic Studio. All rights reserved.
+            &copy; {new Date().getFullYear()} LumieRe Aesthetic Studio. All rights reserved.
           </p>
           <p className="font-body text-white/40 text-xs">
             Website by{' '}
